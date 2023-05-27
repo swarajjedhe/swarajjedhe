@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mywebsite';
+
+  // menuIcon = document.querySelector(".menu");
+  // sidebar = document.querySelector(".side-bar");
+
+  // toggleSidebar() {
+  //   sidebar.classList.toggle("small-sidebar");
+
+  // }
+
+  sideStatus:boolean=false;
 }

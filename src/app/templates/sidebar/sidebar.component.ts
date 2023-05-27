@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
 
+  // sideBarVissible=true;
+  // // width:any=5;
+
+  // toogleSidebar(){
+  //   this.sideBarVissible=!this.sideBarVissible
+  //   // this.width;
+
+  // }
+  @Input() sideStatus:boolean=false;
 }
